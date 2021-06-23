@@ -1,0 +1,35 @@
+name: photo_video_app
+description: Photo App to demonstrate data from pexels api
+publish_to: 'none'
+version: 1.0.0+1
+authors:
+  - Ankit Mishra
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flutter_bloc: ^6.1.1
+  http: ^0.12.2
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  bloc_pattern: ^2.2.2+3
+  rxdart:
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
